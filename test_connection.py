@@ -8,6 +8,7 @@ def establecer_conexion():
         username = 'user'
         password = 'password'
 
+
         # Cadena de conexión
         connection_string = f'DRIVER={{SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}'
 
